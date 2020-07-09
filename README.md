@@ -1,10 +1,10 @@
 ### 1.把此库克隆到linux主机上（以ubuntu18.04为例）
-git clone https://github.com/leonwoo18/OSlab-env.git ~/oslab-env
-差把hit-oslab-linux-20110823.tar.gz（包含linux-0.11源码、bochs虚拟机等）移到用户目录下
-mv
+git clone https://github.com/leonwoo18/OSlab-env.git ~/oslab-env  </br>
+再把hit-oslab-linux-20110823.tar.gz（包含linux-0.11源码、bochs虚拟机等）移到用户目录下  </br>
+mv hit-oslab-linux-20110823.tar.gz ~/   </br>
 
-### 2.解压hit-oslab-linux-20110823.tar.gz（包含linux-0.11源码、bochs虚拟机等）
-cd /home/用户/  </br>
+
+### 2.解压hit-oslab-linux-20110823.tar.gz
 tar -zxvf hit-oslab-linux-20110823.tar.gz  </br>
 解压后会放在 /home/用户/ 目录下的 oslab/   </br>
 
