@@ -12,7 +12,7 @@ mv hit-oslab-linux-20110823.tar.gz ~/
 ```shell
 tar -zxvf hit-oslab-linux-20110823.tar.gz  
 ```
-解压后会放在~/oslab/ 
+解压后会放在~/oslab/目录下 
 ### 3.执行脚本，一步完成安装实验环境所需的东西
 ```shell
 cd ~/oslab-env/   
