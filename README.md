@@ -3,9 +3,10 @@
 git clone https://github.com/leonwoo18/OSlab-env.git ~/oslab-env  
 ```
 再把hit-oslab-linux-20110823.tar.gz（包含linux-0.11源码、bochs虚拟机等）移到用户目录下  </br>
-cd ~/oslab-env  </br>
-mv hit-oslab-linux-20110823.tar.gz ~/   </br>
-
+```shell
+cd ~/oslab-env 
+mv hit-oslab-linux-20110823.tar.gz ~/  
+```
 
 ### 2.解压hit-oslab-linux-20110823.tar.gz
 tar -zxvf hit-oslab-linux-20110823.tar.gz  </br>
