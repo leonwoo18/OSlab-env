@@ -9,18 +9,23 @@ mv hit-oslab-linux-20110823.tar.gz ~/
 ```
 
 ### 2.解压hit-oslab-linux-20110823.tar.gz
-tar -zxvf hit-oslab-linux-20110823.tar.gz  </br>
-解压后会放在 /home/用户/ 目录下的 oslab/   </br>
-
+```shell
+tar -zxvf hit-oslab-linux-20110823.tar.gz  
+```
+解压后会放在~/oslab/ 
 ### 3.执行脚本，一步完成安装实验环境所需的东西
-cd ~/oslab-env/   </br>
-chmod +x setup.sh   </br>
-./setup.sh    </br>
-
+```shell
+cd ~/oslab-env/   
+chmod +x setup.sh   
+./setup.sh   
+```
 ### 4.编译linux-0.11
-cd ~/oslab/linux-0.11/  </br>
-make all                 </br>
-
+```shell
+cd ~/oslab/linux-0.11/  
+make all                
+```
 ### 5.运行boch模拟器
-cd ~/oslab/        </br>
-./run               </br>
+```shell
+cd ~/oslab/        
+./run               
+```
