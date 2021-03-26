@@ -1,3 +1,7 @@
+注：此setup.sh脚本为本人写的此项目所需安装环境（基于x86平台）
+   由于本人最近把云服务器改为基于华为鲲鹏处理器（cpu为arm架构），所以该脚本需要更新，只能待有空的时候再更新了
+   
+   
 ### 1.把此库克隆到linux主机上（以ubuntu18.04为例）
 ```shell
 git clone https://github.com/leonwoo18/OSlab-env.git ~/oslab-env  
