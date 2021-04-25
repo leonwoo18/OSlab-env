@@ -23,6 +23,7 @@ cd ~/oslab-env/
 chmod +x setup.sh   
 ./setup.sh   
 ```
+如果想要跳过软件源更新步骤，请在./setup.sh后加上参数-s或--skip-update
 ### 4.编译linux-0.11
 ```shell
 cd ~/oslab/linux-0.11/  
