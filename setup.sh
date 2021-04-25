@@ -17,7 +17,7 @@ install_gcc34_amd64() {
         sudo dpkg -i gcc-3.4/amd64/gcc-3.4_3.4.6-8ubuntu2_amd64.deb > /dev/null
         echo "\033[34mDone\033[0m"
     else
-        echo "\033[32mSipped\033[0m"
+        echo "\033[32mSkipped\033[0m"
     fi
 }
 
